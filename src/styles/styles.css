@@ -1,0 +1,276 @@
+:root {
+    --bs-nav-link-color: red; /* Cambia "red" al color que prefieras */
+}
+
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #222;
+}
+
+.logo {
+    max-width: 100%;
+    width: 100px; 
+    height: auto; 
+}
+
+.nav-link {
+    color: var(--bs-nav-link-color)
+}
+
+/* 
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-link a {
+    color: #fff;
+    text-decoration: none;
+}
+*/
+
+.navbar-paragraph {
+    margin: 4px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+.emergency {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.whatsapp-btn {
+    background-color: #25d366;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+} 
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 48px 36px;
+    margin: 0;
+    background-color: #f7f7f7;
+    border: 2px solid red;
+    max-height: 500px; /* Establece la altura deseada del contenedor */
+    position: relative; /* Asegura que el contenedor tenga una posición */
+    overflow: hidden;
+}
+
+.hero div {
+    text-align: left;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 16px;
+    border: 2px solid red;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 16px;
+    border: 2px solid red;
+}
+
+.hero img {
+    max-width: 60%;
+    height: 100%; /* Establece la altura de la imagen al 100% del contenedor */
+    width: auto; /* Asegura que el ancho se ajuste proporcionalmente a la altura */
+    display: block;
+}
+
+.cta-btn {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 2px solid red;
+}
+
+/* Quiénes Somos */
+.about-us {
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    height: 500px;
+}
+
+.about-us div {
+    text-align: left;
+}
+
+.about-us img {
+    max-width: 60%;
+    height: 100%; /* Establece la altura de la imagen al 100% del contenedor */
+    width: auto; /* Asegura que el ancho se ajuste proporcionalmente a la altura */
+    display: block;
+}
+
+.about-btn {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Cómo podemos ayudarte? */
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.service-card a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.service-btn {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/* Emergencias */
+.emergency-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 48px 36px;
+    margin: 0;
+    background-color: #f7f7f7;
+    border: 2px solid red;
+    max-height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.emergency-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.emergency-section img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Preguntas frecuentes */
+.faq {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+}
+
+/* Llamada a la Acción */
+.call-to-action {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.call-to-action img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.call-to-action h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
